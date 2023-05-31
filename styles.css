@@ -1,0 +1,92 @@
+
+.whatami{
+    color: rgb(90, 8, 134);
+    margin-bottom: 5px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 30px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 465px;
+}
+.my_photo{
+    height: 500px;
+    padding: 50px;
+    float: left;
+}
+.desc{
+    
+    /* color: white; */
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: azure;
+}
+.content{
+    font-size: larger;
+}
+.about {
+    /* background-color: black; */
+    margin-top: 50px;
+    height: 500px;
+
+  }
+h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 3rem; */
+}
+.cover{
+    float: right;
+    margin-right: 100px;
+}
+.skill-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    width: 500px;
+    margin-top: 30px;
+    text-align:left ;
+}
+.whatiknow{
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 400px;
+    font-weight: 1.5em;
+    font-family: 'EB Garamond', serif;
+}
+.skill-img{
+    /* width: 15%; */
+    /* margin-bottom: 50px; */
+    margin-top: 100px;
+    /* align-self: center; */
+    /* margin-left: 10px; */
+}
+.edu-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* height: auto; */
+    margin-right: 200px;
+    text-align:left ;
+}
+.whatistudy{
+    /* padding: 50px; */
+    /* margin-top: 50px; */
+    margin-right: 200px;
+    font-weight: 1.5em;
+    font-family: 'EB Garamond', serif;
+}
+.edu-img{
+    margin-bottom: 50px;
+    /* margin-top: 100px; */
+}
